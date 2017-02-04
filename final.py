@@ -1,6 +1,5 @@
 # final.py
 # Created by @DonnersYT - www.github.com/donnersyt
-# @DarronEggins is god
 
 import requests, json, random, time, string, datetime
 
@@ -24,7 +23,7 @@ def main(kount):
     else:
         log("Success... " +str(kount+1) + "/" + str(numOfRefs))
         if (kount+1) == numOfRefs:
-            time.sleep(2*1)
+            time.sleep(2)
 
 if __name__ == "__main__":
     posturl = "https://apply.getfinal.com/signups"
@@ -54,4 +53,4 @@ if __name__ == "__main__":
                 main(kount)
         except ValueError:
             log("You must use an integer value for your referrals!")
-            time.sleep(0.1*10)
+            time.sleep(1)
