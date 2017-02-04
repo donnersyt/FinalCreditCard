@@ -11,6 +11,10 @@ your terminal / command prompt.
 
 After this, use `cd Final` to navigate to the folder.
 
+Set up the config.json file...
+* Find your Final invite code at [GetFinal](https://apply.getfinal.com)
+* Optional: Enter a random domain for signups
+
 To run, enter `python3 final.py`
 
 
